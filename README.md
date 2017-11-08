@@ -2,7 +2,7 @@
 
 Example Angular 5.0.0 to-dos application built from scratch, using the angular-cli. 
 
-This app manages to-dos. Using the app, the user can list, add, edit and remove to-dos
+This app manages to-dos. Using the app, the user can list, add, edit and remove to-dos.
 
 ### Prerequisites
 
@@ -13,7 +13,7 @@ This app manages to-dos. Using the app, the user can list, add, edit and remove 
 
 ### Building the app from scratch
 
-Have a look at the [step by step guide](https://github.com/orlando-c-h).
+Have a look at the [step by step guide](https://www.belatrixsf.com/blog/how-to-easily-build-an-angular-5-app-using-visual-studio-code/).
 
 ### Quick start
 
