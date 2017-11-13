@@ -63,16 +63,12 @@ export class ToDoComponent implements OnInit {
     }
     this.saveMode = SaveMode.Edit;
     this.headerText = 'Edit To-Do';
-    const editedTodo = Object.assign({}, todo, {
-      due: this.applyLocale(todo.due)
-    });
+    const editedTodo = Object.assign({}, todo, { due: this.applyLocale(todo.due) });
     this.formGroup.setValue(editedTodo);
   }
 
   showNewForm(todo: Todo) {
-    if (this.todos.length) {
-      this.formGroup.reset();
-    }
+    this.formGroup.reset();
     this.saveMode = SaveMode.New;
     this.headerText = 'New To-Do';
   }
