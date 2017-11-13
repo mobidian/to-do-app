@@ -29,6 +29,8 @@ yarn
 
 # start the server
 ng serve
+
+# navigate with your browser to http://localhost:4200/
 ```
 ### Libraries already included in the App
  - [bootstrap](https://github.com/twbs/bootstrap) - The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
