@@ -1,5 +1,8 @@
 # Angular 5.0.0 example to-dos application
 
+![tech-stack-logos](https://i.imgur.com/Q3X8kbp.gif)
+
+
 Example Angular 5.0.0 to-dos application built from scratch, using the angular-cli. 
 
 This app manages to-dos. Using the app, the user can list, add, edit and remove to-dos.
