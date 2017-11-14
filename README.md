@@ -26,7 +26,7 @@ git clone https://github.com/orlando-c-h/to-do-app.git
 # change directory to repo
 cd to-do-app
 
-# Use yarn to install the dependencies:
+# Use yarn to install the dependencies
 yarn
 
 # start the server
