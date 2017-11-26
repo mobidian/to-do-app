@@ -1,9 +1,9 @@
-import {Component, OnInit} from '@angular/core';
-import {DatePipe} from '@angular/common';
-import {FormBuilder, FormGroup} from '@angular/forms';
+import { Component, OnInit } from '@angular/core';
+import { DatePipe } from '@angular/common';
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 import {Todo} from './to-do';
-import {TodoService} from './to-do.service';
+import { TodoService } from './to-do.service';
 
 export enum SaveMode {
   None,
@@ -67,7 +67,7 @@ export class ToDoComponent implements OnInit {
     this.formGroup.setValue(editedTodo);
   }
 
-  showNewForm(todo: Todo) {
+  showNewForm() {
     this.formGroup.reset();
     this.saveMode = SaveMode.New;
     this.headerText = 'New To-Do';
